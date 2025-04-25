@@ -17,7 +17,7 @@ Acknowledgments:
 - Christian Jonathan Gomez, Foothill College
 - Luise Pauline Haller, Foothill College
 - Alice He, Foothill College
-- Ömer Incalan, Foothill College
+- Ömer İncialan, Foothill College
 - Sarah Khan, Foothill College
 - Sina Khazaei, Foothill College
 - Vaibhavi Kulkarni, Foothill College
