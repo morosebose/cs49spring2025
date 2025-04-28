@@ -30,21 +30,14 @@ def main():
 
     
 def turn_right():
-    """Enable Karel to face the direction to the right of the current direction
-    
-    Preconditions: Karel is on a corner facing a particular direction
-    
-    Postconditions: 
-    - Karel is on the same corner 
-    - Karel is facing the direction to the right of the previous direction
-    """
+    """Turn Karel to face right"""
     turn_left()
     turn_left()
     turn_left()
     
 
 def move_forward_three():
-    """Move Karel forward three squares at once()"""
+    """Move Karel forward three squares at once"""
     move()
     move()
     move()
