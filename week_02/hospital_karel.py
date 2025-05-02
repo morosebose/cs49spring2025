@@ -15,11 +15,12 @@ def main():
     Walk the row and build hospitals where indicated.
     
     Preconditions: 
-    - Karel is at one end of the row, facing east.
-    - Beepers on the row indicate future hospital locations.
+    - Karel is at one end of the row, facing east
+    - Beepers on the row indicate future hospital locations
         
-    Postconditions: Hospitals built.
-        Karen is at the other end of the row, facing east.
+    Postconditions: 
+    - Hospitals built
+    - Karen is at the other end of the row, facing east
     """
     while front_is_clear():
         if beepers_present():
