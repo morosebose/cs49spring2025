@@ -12,7 +12,6 @@ Programmer: Surajit A. Bose, Date: 2024.05.10
 from random import randint
 import math
 
-
 def main():
     """
     Generate four random numbers between 200 and 1000. Calculate their square roots.
