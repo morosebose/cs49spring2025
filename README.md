@@ -13,13 +13,12 @@ Contributors:
 - Miranda Li, Stanford University
 
 Acknowledgments:
-- Jasper Beach, Foothill College
 - Christian Jonathan Gomez, Foothill College
 - Luise Pauline Haller, Foothill College
 - Alice He, Foothill College
 - Ömer İncialan, Foothill College
-- Sarah Khan, Foothill College
-- Sina Khazaei, Foothill College
+- Sarah Khan, Georgia Tech
+- Sina Khazaei, Tufts University
 - Vaibhavi Kulkarni, Foothill College
 - Alex Martinez, Foothill College
 - Yasmin Wallis, Foothill College
