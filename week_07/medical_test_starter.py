@@ -7,6 +7,27 @@ Programmer: your_name_here, Date: date_modified_here
 """
 import random
 
+
+def main():
+    """
+    Get user input about diagnostic and display percentage of false positives.
+    
+    Preconditions: None
+    
+    Postconditions: Percentage of false positives is displayed onscreen
+    """
+    # Get inputs
+    num = int(input('Number of people: '))
+    # Other inputs ...
+
+    # Call simulate_tests with the user inputs as arguments
+    # and store returned value in a variable
+    incorrect = simulate_tests() # remember the arguments!
+
+    # Print the percentage of positive results that were incorrect
+    print() # what goes inside the parentheses?
+
+
 def simulate_tests(num_people, test_accuracy, infection_rate):
     """
     Params:
@@ -29,36 +50,20 @@ def simulate_tests(num_people, test_accuracy, infection_rate):
         # set the variable 'is_true' to True 50% of the time.
         # How could you probabilistically set these two variables:
         # person_is_infected and test_is_accurate?
-        
+        person_is_infected = 
+        test_is_accurate = 
         
         # Still inside the loop:
         # - based on simulations, increment one of the four tallies.
-
+        if  # how many branches will the if-elif-else statement need?
 
     # After loop is done, print out the four values
-    print() # what goes inside the parentheses? Repeat for each value
+    print(f'True positives: {}')     # what goes inside the braces? 
+    # Repeat the print() statement for each of the four values
 
     # Return the fraction of positive tests that were inaccurate
     return # what goes here? What is the formula to use?
-
-def main():
-    """
-    Get user input about diagnostic and display percentage of false positives.
     
-    Preconditions: None
-    
-    Postconditions: Percentage of false positives is displayed onscreen
-    """
-    # Get inputs
-    num = int(input('Number of people: '))
-    # Other inputs ...
-
-    # Call simulate_tests with the user inputs as arguments
-    # and store returned value in a variable
-    incorrect = simulate_tests() # remember the arguments!
-
-    # Print the percentage of positive results that were incorrect
-    print() # what goes inside the parentheses?
 
 # There is no need to edit code below this line
 if __name__ == "__main__":

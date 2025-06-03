@@ -19,7 +19,7 @@ def main():
     
     Postconditions:
     """
-    # write out high-level steps here
+    pass    # write out your high-level steps here
 
 
 
@@ -36,6 +36,7 @@ def … ():
     
     Returns: 
     """
+    pass    # your code here
 
 if __name__ == "__main__":
     main()
