@@ -23,12 +23,13 @@ def scribble():
         mouse_y = canvas.get_mouse_y()
 
         # if mouse is on canvas
-        if mouse_x < CANVAS_WIDTH and \
-            mouse_y < CANVAS_HEIGHT and \
-            mouse_x > 0 and mouse_y > 0:
-
-            canvas.create_oval(mouse_x, mouse_y, mouse_x + CIRCLE_SIZE,
-                mouse_y + CIRCLE_SIZE, random_color())
+        if 0 <= mouse_x <= CANVAS_WIDTH - CIRCLE_SIZE \
+        and 0 <= mouse_y <= CANVAS_HEIGHT - CIRCLE_SIZE:
+            canvas.create_oval(mouse_x, 
+                mouse_y, 
+                mouse_x + CIRCLE_SIZE,
+                mouse_y + CIRCLE_SIZE, 
+                random_color())
         time.sleep(DELAY)
 
 def random_color():
