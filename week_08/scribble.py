@@ -37,4 +37,4 @@ def random_color():
     return random.choice(colors)
 
 if __name__ == "__main__":
-    main()
+    scribble()
